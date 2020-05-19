@@ -1,10 +1,10 @@
-# s2i Tomcat6 Java6- Maven2
+# S2I Tomcat6 Java6- Maven2
 
 S2I Image Builder for build Sun Java 6 applications using Apache Maven 2 and running on Apace Tomcat 6.
 
 First Step
 ---
-Before you build this image, it's necessary download Java 6 installer file (jdk-6u45-linux-x64.bin), put on java-installer directory and create sha256 file (user command `sha256sum jdk-6u45-linux-x64.bin > jdk-6u45-linux-x64.bin.sha256`).
+Before you build this image, it's necessary (download Java 6)[https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html] installer file (jdk-6u45-linux-x64.bin), put on java-installer directory and create sha256 file (user command `sha256sum jdk-6u45-linux-x64.bin > jdk-6u45-linux-x64.bin.sha256`).
 
 Local Docker build
 ---
